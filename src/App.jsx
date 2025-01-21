@@ -1,20 +1,19 @@
 import "./App.css";
 import React from 'react';
 
-
-//импорт по умолчанию (название компонента можно заменить на любое другое)
+// импорт по умолчанию (название компонента можно заменить на любое другое)
 // import MyButton from "./components/Button/Button";
 // import Button from "./components/Button/Button";
 
-//lessons
+// lessons
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
-import Lesson03 from "./lessons/Lesson03/Lesson03";
-import Lesson04 from "./lessons/Lesson04/Lesson04";
+// import Lesson03 from "./lessons/Lesson03/Lesson03";
+// import Lesson04 from "./lessons/Lesson04/Lesson04";
 
-//homeworks
+// homeworks
 // import Homework02 from "./homeworks/Homework02/Homework02";
 // import Homework03 from "./homeworks/Homework03/Homework03";
-
+import Homework04 from './homeworks/homework04/homework';
 
 function App() {
   return (
@@ -29,12 +28,13 @@ function App() {
       {/*<Lesson03 />*/}
       {/* <Homework03 /> */}
       {/* ---Topic: functions, hooks(useState) */}
-      <Lesson04 />
-
+      {/* <Lesson04 /> */}
+      
+      <Homework04 />
+    
     </div>
   );
 }
 
 export default App;
-
 
