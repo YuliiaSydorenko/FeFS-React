@@ -1,6 +1,7 @@
 import "./styles.css";
 import React from 'react';
 import Button from "../../components/Button/Button";
+import Counter from "../../components/Counter/Counter";
 
 // Определяем функцию showCustomMessage
 const showCustomMessage = (name) => {
@@ -10,6 +11,7 @@ const showCustomMessage = (name) => {
 function Lesson04() {
   return (
     <div className="lesson04-wrapper">
+      <Counter/>
       <div className="buttons-container">
         {/* Пример 1 - создание функции внутри вызова кнопки (анонимная функция) */}
         <Button
