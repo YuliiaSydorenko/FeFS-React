@@ -1,0 +1,25 @@
+.lesson04-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+.main-button {
+  width: 300px;
+  padding: 20px 30px;
+  background-color: rgb(54, 153, 153);
+  border: none;
+  border-radius: 4px;
+  font-size: 28px;
+  color: rgb(46, 66, 66);
+}
