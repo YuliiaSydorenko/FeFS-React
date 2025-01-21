@@ -4,8 +4,7 @@ import React from 'react';
 // объект props передаётся как параметр в круглые скобки, при создании компонента
 // const props = {
 //    name: <значение свойства будет передано при вызове компонента>
-//    array: []
-// }
+//    array: []}
 
 // деструктуризация - 2 вариант ()
 function Button({ name = "SEND", type = "button", onClick }) { 

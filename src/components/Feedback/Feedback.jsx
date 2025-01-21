@@ -2,23 +2,21 @@ import React, { useState } from 'react';
 import Button from '../Button/Button';
 import './styles.css';
 
+
 function Feedback() {
   const [likes, setLikes] = useState(0);
   const [dislikes, setDislikes] = useState(0);
-
   const handleLike = () => {
     setLikes((prevLikes) => prevLikes + 1);
   };
-
+  
   const handleDislike = () => {
     setDislikes((prevDislikes) => prevDislikes + 1);
   };
-
   const resetResults = () => {
     setLikes(0);
     setDislikes(0);
   };
-
   return (
     <div className="feedback-wrapper">
       <div className="feedback-buttons">
