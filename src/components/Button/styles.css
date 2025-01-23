@@ -1,10 +1,9 @@
 .main-button {
   width: 100%;
   padding: 20px 30px;
-  background-color: rgb(54, 153, 153);
+  background-color: rgb(48, 138, 138);
   border: none;
   border-radius: 4px;
   font-size: 28px;
   color: rgb(46, 66, 66);
 }
-

@@ -10,7 +10,7 @@ label {
 }
 .input-element {
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   padding: 12px;
   outline: none;
   border: 1px solid rgb(22, 20, 20);
