@@ -1,0 +1,26 @@
+.homework05 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #68b4a5; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product {
+  background-color: #d0d8bf; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Легкая тень */
+  transition: transform 0.2s; /* Плавный переход при наведении */
+}
+
+.product:hover {
+  transform: scale(2.0); /* Увеличение при наведении */
+}
+
+.product h2 {
+  color: #aa2008;
+}
+
+.product p {
+  color: #093d68; 
+}

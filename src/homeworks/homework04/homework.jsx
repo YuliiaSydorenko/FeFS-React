@@ -1,13 +1,13 @@
-import React from 'react';
-import Feedback from '../../components/Feedback/Feedback';
-import './styles.css';
+// import React from 'react';
+// import Feedback from '../../components/Feedback/Feedback';
+// import './styles.css';
 
-function Homework04() {
-  return (
-    <div className="homework04-wrapper">
-      <Feedback />
-    </div>
-  );
-}
+// function Homework04() {
+//   return (
+//     <div className="homework04-wrapper">
+//       <Feedback />
+//     </div>
+//   );
+// }
 
-export default Homework04;
+// export default Homework04;
