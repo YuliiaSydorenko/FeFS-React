@@ -21,3 +21,4 @@ export const hippoData = {
   skills: ["Swimming", "Singing"],
   image: "https://img.freepik.com/free-vector/cute-hippopotamus-flat-style_1308-111685.jpg?t=st=1713338351~exp=1713341951~hmac=da5b88d5e60e962ab410cab28b41e1a4317b69ad3045b54fa635ddb0103db2b4&w=826"
 };
+
